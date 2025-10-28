@@ -1,0 +1,99 @@
+@import url(https://fonts.googleapis.com/css?family=IBM+Plex+Sans+Thai:100,200,300,regular,500,600,700);
+
+* {
+  font-family: "IBM Plex Sans Thai", "sans-serif";
+  transition: all .3s;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+
+  background: #2e2f2f;
+  color: whitesmoke;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 0.2rem;
+  padding: 0;
+}
+
+.container {
+  width: 80%;
+  height: 100dvh;
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  gap: 1rem;
+}
+
+.profile-img {
+  width: 200px;
+  aspect-ratio: 1/1;
+
+  padding: .1rem;
+  
+  border: 2px solid #fe6f6f;
+  border-radius: 100%;
+
+  .img {
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+
+    background-position: center !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+  }
+}
+
+.profile-img:hover {
+  border: 5px solid #fe6f6f;
+  padding: .5rem;
+}
+
+.text-box {
+  width: 22rem;
+
+  background-color: whitesmoke;
+  color: #2e2f2f;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  border-radius: 1rem;
+
+  h3 {
+    font-weight: 500;
+    opacity: .6;
+  }
+}
+
+.text-box * {
+  text-align: center;
+  justify-content: center;
+  align-self: center;
+}
+
+.links {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    width: 90%;
+  }
+}
