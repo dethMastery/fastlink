@@ -1,0 +1,10 @@
+.top-start {
+  gap: 0 !important;
+}
+
+.top-end .info-box {
+  min-width: calc(35rem - (200px + 1rem)) !important;
+  width: calc(35rem - (200px + 1rem)) !important;
+  white-space: normal !important;
+  opacity: 1 !important;
+}
