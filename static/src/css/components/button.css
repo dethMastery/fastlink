@@ -1,0 +1,72 @@
+.links {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.link-btn {
+  width: 100%;
+  padding: 1rem 0;
+  text-decoration: none;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+
+  color: whitesmoke;
+  border-radius: 1rem;
+  border-bottom: 0 !important;
+  border-left: 0 !important;
+
+  img {
+    width: 30px;
+    aspect-ratio: 1/1;
+  }
+
+  &:hover {
+    transform: scale(0.9);
+    opacity: 0.6;
+  }
+}
+
+.btn-link {
+  background: linear-gradient(45deg, transparent, rgba(254, 110, 111, 0.2));
+  border: 1px solid rgba(254, 110, 111, 0.4);
+}
+
+.btn-discord {
+  background: linear-gradient(45deg, transparent, rgba(114, 137, 218, 0.2));
+  border: 1px solid rgba(114, 137, 218, 0.4);
+}
+
+.btn-github {
+  background: linear-gradient(45deg, transparent, rgba(0, 0, 0, 0.2));
+  border: 1px solid rgba(0, 0, 0, 0.4);
+}
+
+.btn-ig {
+  background: linear-gradient(
+    45deg,
+    rgba(131, 58, 180, 0.1),
+    rgba(253, 29, 29, 0.15),
+    rgba(252, 176, 69, 0.2)
+  );
+  border: 1px solid rgba(252, 176, 69, 0.4);
+}
+
+/* Spotify Things */
+.spotify .controller button {
+  width: 1rem;
+  height: calc(352px - 2rem);
+  background: rgba(0, 0, 0, 0.4);
+  border: 0;
+  font-size: 20px;
+
+  &:hover {
+    transform: scale(0.9);
+    opacity: 0.6;
+    cursor: pointer;
+  }
+}
