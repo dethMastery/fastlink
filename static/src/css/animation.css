@@ -10,13 +10,29 @@
 }
 
 .bot-start {
-  margin-top: -50dvh !important;
+  width: 100%;
+  height: fit-content;
+  
   opacity: 0;
+  position: fixed;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+
+  gap: 0;
+
+  .fake-div {
+    width: 100%;
+    height: 0;
+  }
 }
 
 .bot-end {
-  margin-top: 0 !important;
-  opacity: 1 !important;
+  width: 100%;
+  height: fit-content;
+
+  opacity: 1;
+  position: inherit;
 }
 
 @media only screen and (max-width: 600px) {

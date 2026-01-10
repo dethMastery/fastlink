@@ -103,6 +103,17 @@ h5 {
   }
 }
 
+.text-box-container {
+  width: 100%;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  transition-delay: opacity 500ms;
+}
+
 .text-box {
   width: fit-content;
   min-width: 20rem;
