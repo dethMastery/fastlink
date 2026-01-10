@@ -3,6 +3,7 @@
 
 @import url(/src/css/animation.css);
 @import url(/src/css/components/button.css);
+@import url(/src/css/components/navigation.css);
 @import url(/src/css/components/spotify.css);
 
 * {
@@ -44,7 +45,7 @@ h5 {
 }
 
 .main-card {
-  width: 35rem;
+  max-width: 35rem;
 
   display: flex;
   flex-direction: row;
@@ -115,7 +116,21 @@ h5 {
 }
 
 @media only screen and (max-width: 600px) {
-  .container {
-    width: 90%;
+  .main-card {
+    width: 20rem;
+    height: fit-content;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .info-box {
+      width: 100%;
+      height: fit-content;
+
+      white-space: normal !important;
+      text-align: center;
+    }
   }
 }

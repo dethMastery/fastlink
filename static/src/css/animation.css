@@ -8,3 +8,22 @@
   white-space: normal !important;
   opacity: 1 !important;
 }
+
+@media only screen and (max-width: 600px) {
+  .top-start {
+    gap: 0 !important;
+
+    .info-box {
+      height: 0 !important;
+    }
+  }
+
+  .top-end .info-box {
+    /* height: calc(4rem + 1.17rem + 1.17rem + 1.6rem) !important; */
+    /* height: auto !important; */
+    height: 150px !important;
+    display: flex;
+    flex-direction: column;
+    gap: .2rem;
+  }
+}
