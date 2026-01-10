@@ -1,0 +1,14 @@
+/* Spotify Things */
+.spotify .controller button {
+  width: 1rem;
+  height: calc(352px - 2rem);
+  background: rgba(0, 0, 0, 0.4);
+  border: 0;
+  font-size: 20px;
+
+  &:hover {
+    transform: scale(0.9);
+    opacity: 0.6;
+    cursor: pointer;
+  }
+}
