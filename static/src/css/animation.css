@@ -9,6 +9,16 @@
   opacity: 1 !important;
 }
 
+.bot-start {
+  margin-top: -50dvh !important;
+  opacity: 0;
+}
+
+.bot-end {
+  margin-top: 0 !important;
+  opacity: 1 !important;
+}
+
 @media only screen and (max-width: 600px) {
   .top-start {
     gap: 0 !important;
