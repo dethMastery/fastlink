@@ -19,8 +19,6 @@
   }
 
   .top-end .info-box {
-    /* height: calc(4rem + 1.17rem + 1.17rem + 1.6rem) !important; */
-    /* height: auto !important; */
     height: 150px !important;
     display: flex;
     flex-direction: column;

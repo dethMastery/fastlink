@@ -29,6 +29,10 @@ h5 {
   padding: 0;
 }
 
+.hidden {
+  display: none !important;
+}
+
 .container {
   width: 80%;
   min-height: 100dvh;
@@ -52,11 +56,14 @@ h5 {
   justify-content: center;
   align-items: center;
   gap: 1rem;
-
-  color: #2e2f2f;
-  background: whitesmoke;
   padding: 1rem;
+
+  background: linear-gradient(45deg, transparent, rgba(245, 245, 245, 0.2));
+  backdrop-filter: blur(10px);
+  border: 2px solid rgba(245, 245, 245, 0.4);
   border-radius: 1rem;
+  border-left: 0;
+  border-bottom: 0;
 
   .profile-img {
     width: 200px;
@@ -86,6 +93,9 @@ h5 {
     height: 200px;
     overflow: hidden;
 
+    transition: all 0.5s, gap 0.3s;
+    transition-delay: 0.5s;
+
     h3 {
       font-weight: 500;
       opacity: 0.6;
@@ -97,8 +107,12 @@ h5 {
   width: fit-content;
   min-width: 20rem;
 
-  background-color: whitesmoke;
-  color: #2e2f2f;
+  background: linear-gradient(45deg, transparent, rgba(245, 245, 245, 0.2));
+  backdrop-filter: blur(10px);
+  border: 2px solid rgba(245, 245, 245, 0.4);
+  border-radius: 1rem;
+  border-left: 0;
+  border-bottom: 0;
 
   display: flex;
   flex-direction: column;
