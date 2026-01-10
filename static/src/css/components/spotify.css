@@ -1,0 +1,19 @@
+.spotify {
+  margin-top: 1rem;
+}
+
+.spotify .controller {
+  width: 100%;
+  margin-bottom: 1rem;
+
+  display: flex;
+  flex-direction: row;
+
+  div.interupter {
+    width: 100%;
+  }
+
+  button {
+    width: fit-content;
+  }
+}

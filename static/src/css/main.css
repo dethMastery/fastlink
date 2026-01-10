@@ -3,6 +3,7 @@
 
 @import url(/src/css/animation.css);
 @import url(/src/css/components/button.css);
+@import url(/src/css/components/spotify.css);
 
 * {
   /* font-family: "IBM Plex Sans Thai", "sans-serif"; */
