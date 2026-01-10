@@ -1,5 +1,5 @@
 const top_element = document.querySelector(".main-card");
-const bot_element = document.querySelector(".text-box");
+const bot_element = document.querySelector(".text-box-container");
 
 setTimeout(() => {
   top_element.classList.remove("top-start");
@@ -11,8 +11,8 @@ setTimeout(() => {
 
 setTimeout(() => {
   bot_element.classList.remove("bot-start");
-}, 1500);
+}, 2500);
 
 setTimeout(() => {
   bot_element.classList.add("bot-end");
-}, 1500);
+}, 2500);
