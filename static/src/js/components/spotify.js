@@ -3,6 +3,7 @@ let spotify_tab = localStorage.getItem("spotify_tab") || 0;
 const playlist_data = [
   "https://open.spotify.com/embed/playlist/6OU3yAdlEzonVyElOITmmV?utm_source=generator",
   "https://open.spotify.com/embed/playlist/3ttDIixnys0RsZW2wA18gv?utm_source=generator",
+  "https://open.spotify.com/embed/playlist/0gsdfdYgCGXO3rGDLtBnlv?utm_source=generator",
 ];
 
 const template = (data) => {
