@@ -18,6 +18,12 @@ const links_data = [
     tag: "discord",
   },
   {
+    title: "Tiktok",
+    links: "https://tiktok.com/@solomonz_star",
+    icon: '/src/img/icons/tiktok.svg',
+    tag: "tiktok" 
+  },
+  {
     title: "Github",
     links: "https://github.com/dethMastery",
     icon: "/src/img/icons/github.svg",
@@ -28,7 +34,7 @@ const links_data = [
     links: "https://instagram.com/katsuragi.wav",
     icon: "/src/img/icons/instagram.svg",
     tag: "ig",
-  },
+  }
 ];
 
 const link_template = (data) => {
