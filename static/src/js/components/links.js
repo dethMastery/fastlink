@@ -30,7 +30,13 @@ const links_data = [
     tag: "github",
   },
   {
-    title: "Instagram",
+    title: "Personal Instagram",
+    links: "https://instagram.com/dethz__198",
+    icon: "/src/img/icons/instagram.svg",
+    tag: "ig",
+  },
+  {
+    title: "Artist Instagram",
     links: "https://instagram.com/katsuragi.wav",
     icon: "/src/img/icons/instagram.svg",
     tag: "ig",
