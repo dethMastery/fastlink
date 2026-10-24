@@ -13,7 +13,7 @@ const links_data = [
   },
   {
     title: "Discord Profile",
-    links: "https://discord.gg/Mv7KXXrZgw",
+    links: "https://did.n-noel.my.id/?id=387465159322632202",
     icon: "/src/img/icons/discord.svg",
     tag: "discord",
   },
