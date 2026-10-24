@@ -1,10 +1,10 @@
 const links_data = [
-  // {
-  //   title: "Donate ค่าข้าวให้เจ้าเด็ทซ์",
-  //   links: "https://donate.mastery.my.id",
-  //   icon: "/src/img/icons/globe.svg",
-  //   tag: "link",
-  // },
+  {
+    title: "Donate ค่าข้าวให้เจ้าเด็ทซ์",
+    links: "https://donate.detzz.in.th",
+    icon: "/src/img/icons/globe.svg",
+    tag: "link",
+  },
   {
     title: "Discord Server",
     links: "https://discord.gg/Mv7KXXrZgw",
